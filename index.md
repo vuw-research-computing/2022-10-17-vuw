@@ -8,7 +8,7 @@ address: "Room 205, Te Toki a Rata building, Gate 7 Kelburn Parade"      # full 
 country: "nz"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "-41.289324519705474"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "174.76729690792843"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+longitude: " 174.76729690792843"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "Oct 17-18, 2022"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9am - 5pm"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-10-17      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -16,7 +16,7 @@ enddate: 2022-10-18        # machine-readable end date for the workshop in YYYY-
 instructor: ["Andre Geldenhuis", "Wes Harrell", "Matt Plummer"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Bex Campbell-Redl", "Leticia Castro", ""Jake Ireland", "Michael Kelly"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["matt.plummer@vuw.ac.nz"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2022-10-17-vuw # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
+collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -30,6 +30,12 @@ If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
+
+
+{% comment %}
+
+{% endcomment %}
+
 
 {% comment %}
 Check DC curriculum
@@ -97,7 +103,6 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 {% endif %}
 
 {% comment %}
-
 AUDIENCE
 
 Explain who your audience is.  (In particular, tell readers if the
