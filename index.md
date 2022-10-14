@@ -104,12 +104,6 @@ This is a pilot workshop, testing out a lesson that is still under development. 
 
 {% comment %}
 
-<p id="where">
-  <strong>Register:</strong>
-  <a href="https://vuw.libcal.com/event/5507612"> https://vuw.libcal.com/event/5507612</a>. 
-</p>
-
-
 AUDIENCE
 
 Explain who your audience is.  (In particular, tell readers if the
